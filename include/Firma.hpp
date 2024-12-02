@@ -67,22 +67,22 @@ class Firma
             switch (pracownik)
             {
             case 1:
-                pracownicy_[nPracownikow_+1] = std::make_unique<Inz>();
+                pracownicy_[nPracownikow_] = std::make_unique<Inz>();
                 nInz_++;
                 nPracownikow_++;
                 break;
             case 2:
-                pracownicy_[nPracownikow_+1] = std::make_unique<Mag>();
+                pracownicy_[nPracownikow_] = std::make_unique<Mag>();
                 nMag_++;
                 nPracownikow_++;
                 break;
             case 3:
-                pracownicy_[nPracownikow_+1] = std::make_unique<Mkt>();
+                pracownicy_[nPracownikow_] = std::make_unique<Mkt>();
                 nMkt_++;
                 nPracownikow_++;
                 break;
             case 4:
-                pracownicy_[nPracownikow_+1] = std::make_unique<Rob>();
+                pracownicy_[nPracownikow_] = std::make_unique<Rob>();
                 nRob_++;
                 nPracownikow_++;
                 break;  
